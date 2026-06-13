@@ -292,21 +292,5 @@ CUSTOM_CSS = """
 """
 
 # HTML template for the landing page animated Hug
-HUG_HTML = """
-<div class="hug-container">
-    <svg class="hug-svg" viewBox="0 0 150 150">
-        <!-- Beating Heart -->
-        <path class="hug-heart" d="M 75 45 C 50 15, 20 30, 20 60 C 20 95, 75 130, 75 130 C 75 130, 130 95, 130 60 C 130 30, 100 15, 75 45 Z" />
-        
-        <!-- Left Arm/Hand wrapping in -->
-        <path class="hug-arm-left" d="M 15 80 Q 35 110, 60 90 Q 65 85, 62 80" />
-        
-        <!-- Right Arm/Hand wrapping in -->
-        <path class="hug-arm-right" d="M 135 80 Q 115 110, 90 90 Q 85 85, 88 80" />
-    </svg>
-    <div style="font-size: 1.3rem; font-weight: 600; color: #ff4b72; margin-top: 1rem;">You are safe, heard, and supported here.</div>
-    <div style="font-size: 0.95rem; opacity: 0.8; margin-top: 0.2rem; max-width: 400px; line-height: 1.4;">
-        Welcome to SafeHer. We are here to listen, offer a calming hug, guide you on safety, or help with emotional comfort. Select a topic below or send a message to begin.
-    </div>
-</div>
-"""
+HUG_HTML = """<div class="hug-container"><svg class="hug-svg" viewBox="0 0 150 150"><path class="hug-heart" d="M 75 45 C 50 15, 20 30, 20 60 C 20 95, 75 130, 75 130 C 75 130, 130 95, 130 60 C 130 30, 100 15, 75 45 Z" /><path class="hug-arm-left" d="M 15 80 Q 35 110, 60 90 Q 65 85, 62 80" /><path class="hug-arm-right" d="M 135 80 Q 115 110, 90 90 Q 85 85, 88 80" /></svg><div style="font-size: 1.3rem; font-weight: 600; color: #ff4b72; margin-top: 1rem;">You are safe, heard, and supported here.</div><div style="font-size: 0.95rem; opacity: 0.8; margin-top: 0.2rem; max-width: 400px; line-height: 1.4;">Welcome to SafeHer. We are here to listen, offer a calming hug, guide you on safety, or help with emotional comfort. Select a topic below or send a message to begin.</div></div>"""
+
